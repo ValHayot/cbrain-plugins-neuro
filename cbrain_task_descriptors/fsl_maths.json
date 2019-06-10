@@ -1,7 +1,7 @@
 {
     "tool-version": "mcin/docker-fsl:latest",
     "author": "Oxford Centre for Functional MRI of the Brain (FMRIB)",
-    "descriptor-url": "https://github.com/aces/cbrain-plugins-neuro/blob/master/cbrain_task_descriptors/fsl_maths.json",
+    "descriptor-url": "fsl_maths.json",
     "command-line": "fslmaths [dt] [INPUT_FILE] [addf] [addn] [subf] [subn] [mulf] [muln] [divf] [divn] [remf] [remn] [mas] [thr] [thrp] [thrP] [uthr] [uthrp] [uthrP] [maxf] [maxn] [minf] [minn] [seed] [restart] [save] [exp] [log] [sin] [cos] [tan] [asin] [acos] [atan] [sqr] [sqrt] [recip] [abs] [bin] [binv] [fillh] [fillh26] [index] [grid] [edge] [tfce] [tfceS] [nan] [nanm] [rand] [randn] [inm] [ing] [range] [tensor_decomp] [kernel_3D] [kernel_2D] [kernel_box] [kernel_boxv] [kernel_boxv3] [kernel_gauss] [kernel_sphere] [kernel_file] [dilM] [dilD] [dilF] [dilall] [ero] [eroF] [fmedian] [fmean] [fmeanu] [s] [subsamp2] [subsamp2offc] [Tmean] [Tstd] [Tmax] [Tmaxn] [Tmin] [Tmedian] [Tperc] [Tar1] [Xmean] [Xstd] [Xmax] [Xmaxn] [Xmin] [Xmedian] [Xperc] [Xar1] [Ymean] [Ystd] [Ymax] [Ymaxn] [Ymin] [Ymedian] [Yperc] [Yar1] [Zmean] [Zstd] [Zmax] [Zmaxn] [Zmin] [Zmedian] [Zperc] [Zar1] [pval] [pval0] [cpval] [ztop] [ptoz] [rank] [ranknorm] [roi] [bptf] [roc] [OUTPUT_FILE] [odt]",
     "container-image": {
         "image": "mcin/docker-fsl:latest",
